@@ -1,0 +1,144 @@
+.root {
+  flex: 0 0 calc(100% / 4 - 30px);
+  max-width: calc(100% / 4 - 30px);
+  margin: 15px;
+  @media (max-width: 992px) {
+    flex: 0 0 calc(100% / 3 - 30px);
+    max-width: calc(100% / 3 - 30px);
+  }
+  @media (max-width: 768px) {
+    flex: 0 0 calc(100% / 1 - 30px);
+    max-width: calc(100% / 1 - 30px);
+  }
+}
+
+.card {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.cardForm {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.img {
+  margin-bottom: 15px;
+  img {
+    width: 100%;
+    display: block;
+    max-width: 300px;
+    height: auto;
+  }
+}
+.title {
+  font-size: 17px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.text {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.price {
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.btn {
+  cursor: pointer;
+  outline: 0;
+  background: green;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border: 0;
+  padding: 5px 10px;
+}
+
+
+.inputTitle {
+  width: 100%;
+  display: flex;
+  input {
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    height: 30px;
+  }
+}
+
+.inputPrice {
+  width: 100%;
+  display: flex;
+  input {
+    border: 1px solid #000;
+    width: 100%;
+    font-weight: normal;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    height: 30px;
+  }
+}
+
+
+.inputText {
+  width: 100%;
+  display: flex;
+  textarea {
+    font-size: 16px;
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    min-height: 100px;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+
+.btnSubmit {
+  cursor: pointer;
+  outline: 0;
+  background: blue;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 5px;
+  border: 0;
+  padding: 5px 10px;
+}
+
+.btnReturn {
+  cursor: pointer;
+  outline: 0;
+  background: red;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 5px;
+  border: 0;
+  padding: 5px 10px;
+}
+
+.preview {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+

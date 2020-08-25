@@ -1,0 +1,92 @@
+
+.root {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  max-width: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  background: #fff;
+  box-shadow: 0px 0px 57px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  form {
+    width: 100%;
+  }
+  &Show {
+    display: flex;
+  }
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(#000, .5);
+  &Show {
+    display: block;
+  }
+}
+
+.content {
+  width: 100%;
+}
+
+.img {
+  margin-bottom: 15px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  input {
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 3px;
+    height: 30px;
+  }
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  textarea {
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 3px;
+    min-height: 100px;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btnReturn,
+.btnSubmit {
+  cursor: pointer;
+  outline: 0;
+  background: black;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 5px;
+  border: 0;
+  padding: 5px 10px;
+}
+
+.preview {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
